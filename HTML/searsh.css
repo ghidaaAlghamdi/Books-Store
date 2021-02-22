@@ -1,0 +1,429 @@
+
+/* for all page*/
+body{
+  background-image:url("C:/Users/HP/Desktop/wood.jpg");
+  background-repeat: no-repeat;
+   background-color:orange;
+  background-size: 2100px 2500px;
+
+}
+.wood{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+
+}
+check{
+        font-family: "Georgia";
+        font-size:17px;
+        color: red;     
+
+}
+
+/*-------------------------------------------------------------------menu style ----------------------------------------------------------*/
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(0,0,0,0.5);
+  font-size:25px;
+}
+#menu li {
+  float: left;
+}
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menu li a:hover:not(.active) {
+  background-color: #ff9900;
+}
+.active {
+  background-color: #ff9900;
+}
+
+/*-------------------------------------------------------------------index page----------------------------------------------------------*/
+/*backgroound image at index page*/
+.books{
+background-image:url("C:/Users/Hp/Desktop/background.png");
+background-repeat:no repeat;
+background-size:cover;
+width:100%;
+height:900px;
+}
+
+/*-------------------------------------------------------------------conatct page----------------------------------------------------------*/
+
+#para9{
+	margin-top:95px;
+	margin-right:20px;
+	text-align:center;
+	font-family: "Georgia";
+	font-size:80px;
+	color: lightyellow;	
+    left:430px;
+	position: absolute;  
+}
+
+.labelStyle{
+	color: lightyellow;	
+	font-family: "Georgia";
+	font-size:30px;
+}
+
+.inputStyle{
+     font-family:Georgia;
+     width: 400px;
+     padding: 12px;
+     border: 1px solid #ccc; /* Gray border */
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical  ;
+	 
+   }
+
+ .texANDsele{
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family:Georgia;
+   }
+   
+   .Sbutton {
+  background-color:#ff3300;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  font-family:"Georgia";
+  font-size:25px;	
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.Sbutton:hover {
+    background-color: #45a049;
+    font-family:Georgia;
+}
+
+/*-------------------------------------------------------------------search page----------------------------------------------------------*/
+
+#para6{
+	margin-left: 60px;
+	margin-right: 90px;
+	margin-top:95px;
+	 text-align:center;
+	font-family: "Georgia";
+	font-size:80px;
+	color: lightyellow;	  
+	position: absolute;
+    left:450px;
+}
+.search-box{
+     position: absolute;
+     top: 56%;
+     Left: 50%;
+     transform: translate(-50%, -50%);
+}
+.search-box input {
+      height: 50px;
+      width: 50px;
+      padding: 0px 10px;
+      border-radius: 40px;
+      border: 3px solid #ffb84d;
+      padding-right: 30px;
+      transition: 1s ;
+}
+.search-box input:focus{
+     width: 400px;
+     padding-Left: 20px;
+ }
+
+
+/*-------------------------------------------------------------------books page----------------------------------------------------------*/
+
+
+#para7{
+	
+	margin-left: 80px;
+	margin-right: 90px;
+	margin-top:95px;
+	text-align:center;
+	font-family: "Georgia";
+	font-size:80px;
+	color: lightyellow;	
+    left:450px;
+	position: absolute;  
+}
+
+.buttonB {
+  background-color: #F7A12D;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:4px;
+}
+
+.buttonD {
+  background-color:red;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:4px;
+}
+
+#para4 {
+	width:100%;
+	border-collapse: collapse;
+    font-size: 30px;
+	color: lightyellow;
+	font: "Georgia";
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+  padding: 8px;
+  text-align:center;
+}
+
+.modalD {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;  /* Stay in place */
+  top: 56%;
+  Left: 50%;
+  transform: translate(-50%, -50%);
+  background-image:url("C:/Users/HP/Desktop/Webp.png");
+  background-size:cover;
+  text-align:center;
+  font-family: "Georgia";
+  font-size:30px;
+  color: black; 
+  width: 500px;  /* Could be more or less, depending on screen size */
+  height:320px;
+  padding-top:20px;
+  padding-left: 50px;
+  padding-right: 40px;
+  
+}
+
+
+/*-------------------------------------------------------------------releases page----------------------------------------------------------*/
+
+#para5{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; 
+
+}
+
+#para8{
+	
+	margin-top:110px;
+	 text-align:center;
+	font-family: "Georgia";
+	font-size:60px;
+	color: lightyellow;	
+  left:450px;	
+  	position: absolute;	
+}
+
+.btnV {
+  background-color:#ffb84d;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px; 
+}
+
+
+/*-------------------------------------------------------------------longin and sinhup----------------------------------------------------------*/
+
+.Lsinput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.LSbutton {
+  background-color:#ff3300;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  font-family:"Georgia";
+  font-size:25px;	
+}
+
+.LSbutton:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+  
+}
+
+.container {
+  padding: 16px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  
+}
+
+.modal-content{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  position: relative;
+}
+
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/*------------------------------------------------------------------------- cheke out----------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.containerC {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+span.priceC {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
