@@ -1,0 +1,102 @@
+
+<html lang = "en">
+
+
+<head>
+<meta charset="UTF-8">
+<title>Book Store</title>
+<link rel="stylesheet" type="text/css" href="searsh.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+ </head>
+
+ <body>
+ <!-- index page menu-->
+<div id="menu">
+<!--  unordered list for the menu with link for every page-->
+    <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="searsh.html">Search</a></li>
+
+            <li><a href="book.html">Books</a></li>   
+
+            <li><a href="releases.html">New Releases</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+                        <!--  starting a form for the sign up-->
+                        <!--  sign up popped page by sitting the display =block-->     
+                        <li style="float: right;"> <a onclick="document.getElementById('id01').style.display='block'" ><i class="fas fa-user-plus"></i></a>
+                                <div id="id01" class="modal">
+                                <form id="signForm" class="modal-content animate" method="post">
+                                <div class="container">
+                                <!-- close the sign up page if the user prss x by setting the display =none-->
+                                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            <h1>Sign Up</h1>
+                                <!-- label and input for every input in the form-->
+                                <h6 class="LSlabel">Please fill in this form to create an account.</h6>
+                                <label class="LSlabel" for="Semail">Email <span id="EME" class="check" ></span><input id="Semail" class="Lsinput" type="text" placeholder="Enter Email"onfocus="focusFunction()" onblur="blurFunction()"  name="email" ></label>
+                                <label class="LSlabel" for="Spas">Password <span id="EMPP" class="check" ></span><input id="Spas" class="Lsinput" type="password" placeholder="Enter Password"onfocus="focusFunction1()" onblur="blurFunction1()"  name="psw" ></label>
+                                <label class="LSlabel" for="SRpas">Repeat Password <span id="EMRP" class="check" ></span><input id="SRpas" class="Lsinput" type="password" placeholder="Repeat Password"onfocus="focusFunction2()" onblur="blurFunction2()"  name="psw-repeat"></label>
+                                <label class="LSlabel"><input type="checkbox" checked="checked" id="Scheck" name="remember" style="margin-bottom:15px"> Remember me </label>
+                                <h6 class="LSlabel">By creating an account you agree to our Terms & Privacy </h6>
+			
+                                <div>
+								 <button  style="background-color:green" class="LSbutton" type="button" onclick="return test2()">check</button>
+                                <button  class="LSbutton" type="button" onclick="return submS()">sign up</button> <span id="EMSS" class="check" ><span id="EMSS" class="check" >
+
+      </div>
+    </div>
+  </form>
+</div>
+</li>   
+<!--  starting a form for the login-->
+                                <li style="float:right;"> <a  onclick="document.getElementById('id02').style.display='block'" ><i class="fas fa-sign-in-alt"></i></a>
+
+                                                        <div id="id02" class="modal">
+
+                                  <form class="modal-content animate"  method="post" >
+                                        <div class="imgcontainer">
+                                        <!-- close the login page if the user prss x by setting the display =none-->
+                                         <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                        <img src="C:/Users/HP/Desktop/29.jpg" alt="Avatar" class="avatar">
+                                        </div>
+                                        <div class="container">
+                                        <!-- label and input for every input in the form-->
+                                          <label class="LSlabel" for="Lname">Username<span id="EMN" class="check" ></span> <input id="Lname" class="Lsinput" type="text" placeholder="Enter Username" onfocus="focusFunction3()" onblur="blurFunction3()" name="uname" ></label>
+                                          <label class="LSlabel" for="Lpas">Password <span id="EMP" class="check"  ></span><input id="Lpas" class="Lsinput" type="password" placeholder="Enter Password" onfocus="focusFunction4()" onblur="blurFunction4()" name="psw" ></label>
+
+                                            <button  style="background-color:green" class="LSbutton" onclick="return test()" >check</button>
+
+                                          <label class="LSlabel">
+                                                <input type="checkbox" checked="checked" name="remember" id="Lcheck"> Remember me </label></br>
+												 <span id="EMSL" class="check" >
+                                        </div>
+										
+                                        <div class="container" >
+                                          <button class="LSbutton" type="button" onclick="return submL()">log in</button>
+                                          <span class="LSlabel" >Forgot password?</span>
+                                        </div>
+                                  </form>
+                                </div>
+                                </li>                           
+
+
+
+
+
+    </ul>
+
+  </div>
+<div class="books">
+
+</div>
+
+<script
+src="JavaScript.js">
+ </script>
+
+</body>
+</html>
